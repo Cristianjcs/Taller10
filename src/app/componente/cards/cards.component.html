@@ -1,0 +1,17 @@
+
+
+<div class="container">
+  <div class="display-3 text-center">Api de Prison Break</div>
+  <div class="row">
+  <div class="card" style="width: 18rem;" *ngFor="let item of datosApi">
+    <img class="card-img-top" src="https://elhorror.com.mx/wp-content/uploads/2020/07/Prison-Break-Resumen-de-la-temporada-4.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{item.name}}</h5>
+      <p class="card-text">{{item.nickname}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{item.story}}</li>
+    </ul>
+  </div>
+</div>
+</div>

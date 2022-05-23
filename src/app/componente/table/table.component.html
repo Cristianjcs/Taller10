@@ -1,0 +1,15 @@
+<div class="container">
+<table class="table table-bordered table-dark">
+
+    <tbody>
+      <div *ngFor="let item of datosApi">
+      <tr><th scope="row">Nombre</th></tr>
+        <tr><td><span class="display-4">{{item.name}}</span></td></tr>
+        <tr><td><span class="display-6">{{item.nickname}}</span></td></tr>
+        <tr><td>{{item.story}}</td></tr>
+    </div>
+    </tbody>
+  </table>
+</div>
+
+
